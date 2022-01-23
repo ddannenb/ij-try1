@@ -1,13 +1,10 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <button
-      @click="testBtn"
-      style="width: 80px;
-      height: 40px">Press me</button>
+    <button @click="testBtn" style="width: 80px; height: 40px">Press me</button>
   </div>
 </template>
-<script>
+<script lang="ts">
 import { defineComponent } from "vue";
 
 export default defineComponent({
